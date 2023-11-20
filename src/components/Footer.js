@@ -4,16 +4,17 @@ import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return <>
-           <footer>
-       
-             <NavLink to="/">Home</NavLink>
-         
-             <NavLink to="/about">About</NavLink>
-          
-             <NavLink to="/project">Projects</NavLink>
-         
-          
- </footer>
+        
+
+        <footer className="py-3 my-4">
+          <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+            <li className="nav-item"><NavLink to="/" className="nav-link px-2 text-muted">Home</NavLink> </li>
+            <li className="nav-item"><NavLink to="/about" className="nav-link px-2 text-muted">About</NavLink></li>
+            <li className="nav-item"><NavLink to="/project" className="nav-link px-2 text-muted">Projects</NavLink></li>
+            <li className="nav-item"><NavLink to="/contact" className="nav-link px-2 text-muted">Contact</NavLink></li>
+          </ul>
+          <p className="text-center text-muted">© 2023 mertuzel, Inc</p>
+        </footer>
 
            
         </>;

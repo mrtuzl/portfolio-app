@@ -6,7 +6,7 @@ import { PiCodeBold   } from "react-icons/pi";
 
 const Navbar = () => {
   return <>
-            <nav className="navbar navbar-expand-sm bg-white shadow rounded-5 m-3">
+            <nav className="navbar navbar-expand-sm bg-white shadow rounded-5 m-3 ">
                 <div className="container-fluid ">
                   <PiCodeBold  className="mx-1" size={20} color="#189db8"/>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
