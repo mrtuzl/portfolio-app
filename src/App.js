@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 
 const App = () => {
-  return <div className="container">
+  return <div className="container pt-5 ps-5 pe-5">
             <header className="header d-flex justify-content-center"> 
             <Navbar />
             </header>

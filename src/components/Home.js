@@ -10,9 +10,9 @@ import About from "./About";
 
 const Home = () => {
   return <>
-           <div className="container p-5"> 
+           <div className="container pt-5 ps-5 pe-5"> 
               <div className="row"> 
-                <div className="col-lg-8 col-sm-12 p-5"> 
+                <div className="col-lg-8 col-sm-12"> 
                     <img src={pp} alt="pp" className="img-fluid img-p mx-3 border border-3 border-white shadow"/> 
                     <h1 className="p-3"> Front-end web app developer, and content creator.</h1>
                     <p className="mx-3 prompt"> 
@@ -34,7 +34,7 @@ const Home = () => {
                     </div>
                
                 </div>
-                <div className="col-lg-4 col-sm-12 p-5 d-flex align-items-center"> 
+                <div className="col-lg-4 col-sm-12 d-flex align-items-center"> 
                     <img src={mrtuzl} alt="mrtuzl" className="img-fluid img"/> 
                 </div>
               </div>
