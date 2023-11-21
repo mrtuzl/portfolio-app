@@ -16,7 +16,7 @@ const Home = () => {
                 <div className="col-lg-8 col-sm-12"> 
                     <img src={pp} alt="pp" className="img-fluid img-p mx-3 border border-3 border-white shadow"/> 
                     <h1 className="p-3"> Front-end web app developer, and content creator.</h1>
-                    <p className="mx-3 prompt"> 
+                    <p className="mx-3 prompt justify"> 
                     I am a front-end developer with expertise in technologies such as React, 
                     highlighting my proficiency in this field. I have experience building scalable, 
                     secure, and reliable web applications using various frameworks like Bootstrap 
@@ -51,7 +51,7 @@ const Home = () => {
                     </div>
                
                 </div>
-                <div className="col-lg-4 col-sm-12 d-flex align-items-center"> 
+                <div className="col-lg-4 col-sm-12 d-flex align-items-center justify-content-center"> 
                     <img src={mrtuzl} alt="mrtuzl" className="img-fluid img"/> 
                 </div>
               </div>

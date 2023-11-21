@@ -17,7 +17,7 @@ const About = () => {
                 <div className="col-lg-8 col-sm-12"> 
                    <div className="row"> 
                         <h1 className="p-3 mx-2"> I’m Mert Uzel. I live in Ankara, where I design the future.</h1>
-                        <p className="mx-3 prompt"> 
+                        <p className="mx-3 prompt justify"> 
                         I've worked on a variety of projects over the years and 
                         I'm proud of the progress I've made. Many of these projects 
                         are open-source and available for others to explore and contribute to.
@@ -48,7 +48,7 @@ const About = () => {
                     
                
                 </div>
-                <div className="col-lg-4 col-sm-12  d-flex align-items-center"> 
+                <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center"> 
                 <img src={pp} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
                 </div>
               </div>

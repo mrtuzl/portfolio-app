@@ -23,7 +23,7 @@ const Project = () => {
                 </div>
                 <div className="col-lg-8 col-sm-12">  
                         <h1 className="mx-2"> Things I’ve made trying to put my dent in the universe. </h1>
-                        <p className="mx-3 prompt"> 
+                        <p className="mx-3 promp justify"> 
                         I've worked on a variety of projects over the years and 
                         I'm proud of the progress I've made. Many of these projects are 
                         open-source and available for others to explore and contribute to. 
@@ -34,7 +34,7 @@ const Project = () => {
                         </p>
                 </div>
                 <div className="row"> 
-                    <div className="col-lg-8 d-flex justify-content-evenly">  
+                    <div className="col-lg-12 d-flex justify-content-evenly">  
                       <div>
                         <div className="card rounded-3 p-3 m-3 border-0">
                           <div className="card-body">
