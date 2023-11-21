@@ -5,11 +5,11 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+
 
 
 const App = () => {
-  return <div className="container pt-5 ps-5 pe-5">
+  return <div className="container-fluid ps-5 pe-5 pt-5">
             <header className="header d-flex justify-content-center"> 
             <Navbar />
             </header>
@@ -19,9 +19,7 @@ const App = () => {
                 <Route path="/project" element={<Project />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
-            <Footer/>
-             
-        </div>;
+        </div>
 };
 
 export default App;

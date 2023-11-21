@@ -42,10 +42,18 @@ h1{
     font-family: 'Prompt', sans-serif;
 }
 .grow-on-hover {
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease-in; 
     cursor: pointer;
   }
 
 .grow-on-hover:hover {
     transform: scale(1.1); 
   }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+.card{
+    width: 20rem;
+}

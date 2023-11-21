@@ -6,6 +6,7 @@ import { ImGithub } from "react-icons/im";
 import { RiInstagramFill } from "react-icons/ri";
 import { SiStackoverflow } from "react-icons/si";
 import About from "./About";
+import Project from "./Project";
 
 
 const Home = () => {
@@ -26,11 +27,27 @@ const Home = () => {
                      Pro and Photoshop. I thrive on new challenges and opportunities for continual 
                      growth as a developer.
                     </p>
-                    <div className="social p-3  d-flex align-items-center"> 
-                    <ImLinkedin size={25} color="gray" /> 
-                    <ImGithub size={25} color="gray" className="mx-3"/> 
-                    <RiInstagramFill size={30} color="gray" />
-                    <SiStackoverflow size={25} color="gray" className="mx-3"/>
+                    <div className="social p-3  d-flex flex-column"> 
+                        <div>
+                              <a href="https://www.linkedin.com/in/mertmehmetuzel/" className="text-decoration-none">
+                                <ImLinkedin size={25} color="gray" className="m-3 grow-on-hover" /> 
+                                <span className="prompt fw-bold text-secondary"> Follow on LinkedIn</span> </a>
+                              </div>
+                              <div> 
+                              <a href="https://github.com/mrtuzl/" className="text-decoration-none">
+                                <ImGithub size={25} color="gray" className="m-3 grow-on-hover"/> 
+                                <span className="prompt fw-bold text-secondary"> Follow on Github</span> </a>
+                              </div>
+                              <div>
+                                <a href="https://www.instagram.com/mertuzelofficial/" className="text-decoration-none">
+                                <RiInstagramFill size={30} color="gray" className="m-3 grow-on-hover" /> 
+                                <span className="prompt fw-bold text-secondary"> Follow on Instagram</span> </a>
+                              </div>
+                              <div>
+                                <a href="https://stackoverflow.com/" className="text-decoration-none"> 
+                                <SiStackoverflow size={25} color="gray" className="m-3 grow-on-hover"/> 
+                                <span className="prompt fw-bold text-secondary"> Follow on Stack Overflow</span> </a> 
+                              </div>
                     </div>
                
                 </div>
@@ -40,6 +57,7 @@ const Home = () => {
               </div>
             </div>
             <About/>
+            <Project/>
         </>;
 };
 
