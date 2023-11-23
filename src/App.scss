@@ -61,3 +61,44 @@ h1{
     text-align: justify;
     text-justify: inter-word;
 }
+.progress{
+  width: 100%;
+}
+.progress-stacked{
+  width: 100%;
+  border-radius: 0;
+}
+.javascript{
+  background-color: $yellow-300;
+  width: 80%;
+}
+.html{
+  background-color: $orange;
+}
+.react{
+  background-color: $cyan-500;
+  width: 75%;
+}
+.bootstrap{
+  background-color: $purple-500;
+  width: 75%;
+}
+.sass{
+  background-color: $pink-500;
+  width: 90%;
+}
+.webpack{
+  width: 50%;
+}
+.git{
+  background-color: $red;
+  width: 70%;
+}
+.xd{
+  background-color: $pink-400;
+  width: 100%;
+}
+.figma{
+  background-color: $teal-500;
+  width: 85½;
+}

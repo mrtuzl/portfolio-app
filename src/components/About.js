@@ -10,6 +10,7 @@ import logoWebpack from "../img/webpack.svg";
 import logoGit from "../img/git.svg";
 import logoXd from "../img/xd.svg";
 import logoFigma from "../img/figma.svg";
+import Card from "./Card";
 const About = () => {
   return <>
            <div className="container pt-5 ps-5 pe-5"> 
@@ -27,25 +28,46 @@ const About = () => {
                         is a great way to learn and grow, and I'm always open to new ideas and feedback.
                         </p>
                     </div>
-                    <div className="text-center"> 
-                            <div className="my-3 d-flex justify-content-evenly"> 
-                              <img src={logoHtml} alt="html" className="logo m-1 grow-on-hover"/> 
-                              <img src={logoCss} alt="css" className="logo m-1 grow-on-hover"/> 
-                              <img src={logoJavascript} alt="javascript" className="logo m-1 grow-on-hover"/> 
-                              <img src={logoReact} alt="react" className="logo m-1 grow-on-hover"/> 
-                              <img src={logoBootstrap} alt="bootstrap" className="logo m-1 grow-on-hover"/> 
-                            </div>
-                            <div className="d-flex justify-content-evenly">  
-                              <img src={logoSass} alt="sass" className="logo m-1 grow-on-hover"/> 
-                              <img src={logoWebpack} alt="webpack" className="logo m-1 grow-on-hover"/> 
-                              <img src={logoGit} alt="git" className="logo m-1 grow-on-hover"/> 
-                              <img src={logoXd} alt="xd" className="logo m-1 grow-on-hover"/> 
-                              <img src={logoFigma} alt="figma" className="logo m-1 grow-on-hover"/> 
-                            </div>
+                    <div className="d-flex flex-column"> 
+                      <div className="d-flex justify-content-evenly align-items-center"> 
+                            <Card title="html"
+                              img={logoHtml}
+                              content="bla bla "/>
+                            <Card title="css"
+                              img={logoCss}/>
                       </div>
+
+                      <div className="d-flex justify-content-evenly align-items-center"> 
+                            <Card title="javascript"
+                              img={logoJavascript}/>
+                            <Card title="react"
+                              img={logoReact}/>
+                      </div>
+
+                      <div className="d-flex justify-content-evenly align-items-center"> 
+                            <Card title="bootstrap"
+                              img={logoBootstrap}/>
+                            <Card title="sass"
+                              img={logoSass}/>
+                      </div>
+
+                      <div className="d-flex justify-content-evenly align-items-center"> 
+                            <Card title="webpack"
+                              img={logoWebpack}/>
+                            <Card title="git"
+                              img={logoGit}/>
+                      </div>
+
+                      <div className="d-flex justify-content-evenly align-items-center"> 
+                            <Card title="xd"
+                              img={logoXd}/>
+                            <Card title="figma"
+                              img={logoFigma}/>
+                      </div>
+                   </div>
+
                       
-                  
-                    
+                     
                
                 </div>
                 <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center"> 
