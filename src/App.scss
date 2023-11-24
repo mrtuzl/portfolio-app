@@ -48,7 +48,14 @@ h1{
 
 .grow-on-hover:hover {
     transform: scale(1.1); 
+    color: $blue-300 !important;
   }
+.card-hover:hover{
+  background-color: $light;
+  cursor: pointer;
+  transform: scale(1.03); 
+  transition: transform 0.3s ease-in; 
+}
   body {
     display: flex;
     flex-direction: column;

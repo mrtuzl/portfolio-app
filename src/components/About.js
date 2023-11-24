@@ -16,9 +16,9 @@ const About = () => {
            <div className="container pt-5 ps-5 pe-5"> 
               <div className="row"> 
                 <div className="col-lg-8 col-sm-12"> 
-                   <div className="row"> 
+                   <div className="row p-3"> 
                         <h1 className="p-3 mx-2"> I’m Mert Uzel. I live in Ankara, where I design the future.</h1>
-                        <p className="mx-3 prompt justify"> 
+                        <p className="p-3 prompt justify"> 
                         I've worked on a variety of projects over the years and 
                         I'm proud of the progress I've made. Many of these projects 
                         are open-source and available for others to explore and contribute to.
@@ -30,39 +30,48 @@ const About = () => {
                     </div>
                     <div className="d-flex flex-column"> 
                       <div className="d-flex justify-content-evenly align-items-center"> 
-                            <Card title="html"
+                            <Card title="HTML"
                               img={logoHtml}
-                              content="bla bla "/>
-                            <Card title="css"
-                              img={logoCss}/>
+                              content="100%"/>
+                            <Card title="CSS"
+                              img={logoCss}
+                              content="100%"/>
                       </div>
 
                       <div className="d-flex justify-content-evenly align-items-center"> 
-                            <Card title="javascript"
-                              img={logoJavascript}/>
-                            <Card title="react"
-                              img={logoReact}/>
+                            <Card title="Javascript"
+                              img={logoJavascript}
+                              content="80%"/>
+                            <Card title="React JS"
+                              img={logoReact}
+                              content="75%"/>
                       </div>
 
                       <div className="d-flex justify-content-evenly align-items-center"> 
-                            <Card title="bootstrap"
-                              img={logoBootstrap}/>
-                            <Card title="sass"
-                              img={logoSass}/>
+                            <Card title="Bootstrap"
+                              img={logoBootstrap}
+                              content="75%"/>
+                            <Card title="SASS"
+                              img={logoSass}
+                              content="90%"/>
                       </div>
 
                       <div className="d-flex justify-content-evenly align-items-center"> 
-                            <Card title="webpack"
-                              img={logoWebpack}/>
-                            <Card title="git"
-                              img={logoGit}/>
+                            <Card title="Webpack"
+                              img={logoWebpack}
+                              content="50%"/>
+                            <Card title="Git"
+                              img={logoGit}
+                              content="70%"/>
                       </div>
 
                       <div className="d-flex justify-content-evenly align-items-center"> 
-                            <Card title="xd"
-                              img={logoXd}/>
-                            <Card title="figma"
-                              img={logoFigma}/>
+                            <Card title="Xd"
+                              img={logoXd}
+                              content="100%"/>
+                            <Card title="Figma"
+                              img={logoFigma}
+                              content="85%"/>
                       </div>
                    </div>
 

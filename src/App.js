@@ -5,6 +5,7 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
                 <Route path="/project" element={<Project />} />
                 <Route path="/contact" element={<Contact />} />
             </Routes>
+            <Footer/>
         </div>
 };
 

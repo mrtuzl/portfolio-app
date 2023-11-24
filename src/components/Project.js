@@ -9,21 +9,22 @@ import logoWebpack from "../img/webpack.svg";
 import logoGit from "../img/git.svg";
 import logoXd from "../img/xd.svg";
 import logoFigma from "../img/figma.svg";
-import { HiLink } from "react-icons/hi2";
 import pp2 from "../img/pp2.png";
+import ProjectCard from "./ProjectCard";
 
 
 
 const Project = () => {
   return <>
              <div className="container pt-5 ps-5 pe-5"> 
-              <div className="row  d-flex align-items-center"> 
-                <div className="col-lg-3 col-sm-12"> 
+              <div className="row"> 
+                <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center"> 
                     <img src={pp2} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
                 </div>
                 <div className="col-lg-8 col-sm-12">  
-                        <h1 className="mx-2"> Things I’ve made trying to put my dent in the universe. </h1>
-                        <p className="mx-3 promp justify"> 
+                  <div className="row p-3"> 
+                        <h1 className="p-3 mx-2"> Things I’ve made trying to put my dent in the universe. </h1>
+                        <p className="p-3 promp justify"> 
                         I've worked on a variety of projects over the years and 
                         I'm proud of the progress I've made. Many of these projects are 
                         open-source and available for others to explore and contribute to. 
@@ -33,71 +34,33 @@ const Project = () => {
                         and grow, and I'm always open to new ideas and feedback.
                         </p>
                 </div>
-                <div className="row"> 
+            
                     <div className="col-lg-12 d-flex justify-content-evenly">  
                       <div>
-                        <div className="card rounded-3 p-3 m-3 border-0">
-                          <div className="card-body">
-                            <h5 className="card-title">Calculator App</h5>
-                            <p className="card-text prompt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <HiLink/> 
-                            <a href="#" className="text-decoration-none m-1">View Project</a>
-                          </div>
-                          <div className="d-flex"> 
-                          <img src={logoReact} alt="react" className="logo m-1" width="20px"/> 
-                          <img src={logoJavascript} alt="javascript" className="logo m-1" width="20px"/> 
-                          <img src={logoHtml} alt="html" className="logo m-1" width="20px"/> 
-                          </div>
-                        </div>
+                       <ProjectCard title="Calculator App"
+                       description="Bla Bla"
+                       img={logoJavascript}/>
 
-                        <div className="card rounded-3 p-3 m-3 border-0">
-                          <div className="card-body">
-                            <h5 className="card-title">Weather App</h5>
-                            <p className="card-text prompt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <HiLink/> 
-                            <a href="#" className="text-decoration-none m-1">View Project</a>
-                          </div>
-                              <div className="d-flex"> 
-                              <img src={logoReact} alt="react" className="logo m-1" width="20px"/> 
-                              <img src={logoJavascript} alt="javascript" className="logo m-1" width="20px"/> 
-                              <img src={logoHtml} alt="html" className="logo m-1" width="20px"/> 
-                              </div>
-                        </div>
-                     </div>
-
-                     <div> 
-                        <div className="card rounded-3 p-3 m-3 border-0">
-                          <div className="card-body">
-                            <h5 className="card-title">Recipe App</h5>
-                            <p className="card-text prompt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <HiLink/> 
-                            <a href="#" className="text-decoration-none m-1">View Project</a>
-                          </div>
-                              <div className="d-flex"> 
-                              <img src={logoReact} alt="react" className="logo m-1" width="20px"/> 
-                              <img src={logoJavascript} alt="javascript" className="logo m-1" width="20px"/> 
-                              <img src={logoHtml} alt="html" className="logo m-1" width="20px"/> 
-                              </div>
-                        </div>
-
-                        <div className="card rounded-3 p-3 m-3 border-0">
-                          <div className="card-body">
-                            <h5 className="card-title">Reservation App</h5>
-                            <p className="card-text prompt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                             <HiLink/> 
-                            <a href="#" className="text-decoration-none m-1">View Project</a>
-                          </div>
-                              <div className="d-flex"> 
-                              <img src={logoReact} alt="react" className="logo m-1" width="20px"/> 
-                              <img src={logoJavascript} alt="javascript" className="logo m-1" width="20px"/> 
-                              <img src={logoHtml} alt="html" className="logo m-1" width="20px"/> 
-                              </div>
-                        </div>
+                      <ProjectCard title="Weather App"
+                       description="Bla Bla"
+                       img={logoJavascript}/>
                       </div>
+                      <div>
+
+                      <ProjectCard title="Recipe App"
+                       description="Bla Bla"
+                       img={logoJavascript}/>
+
+
+                      <ProjectCard title="Reservation App"
+                       description="Bla Bla"
+                       img={logoJavascript}/>
                       </div>
-                  </div>
                     </div>
+                  </div>
+                </div>
               </div>
+            
         </>;
 };
 

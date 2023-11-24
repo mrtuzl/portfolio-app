@@ -15,8 +15,8 @@ const Home = () => {
               <div className="row"> 
                 <div className="col-lg-8 col-sm-12"> 
                     <img src={pp} alt="pp" className="img-fluid img-p mx-3 border border-3 border-white shadow"/> 
-                    <h1 className="p-3"> Front-end web app developer, and content creator.</h1>
-                    <p className="mx-3 prompt justify"> 
+                    <h1 className="p-3  mx-2"> Front-end web app developer, and content creator.</h1>
+                    <p className="p-3 mx-3 prompt justify"> 
                     I am a front-end developer with expertise in technologies such as React, 
                     highlighting my proficiency in this field. I have experience building scalable, 
                     secure, and reliable web applications using various frameworks like Bootstrap 
@@ -31,22 +31,22 @@ const Home = () => {
                         <div>
                               <a href="https://www.linkedin.com/in/mertmehmetuzel/" className="text-decoration-none">
                                 <ImLinkedin size={25} color="gray" className="m-3 grow-on-hover" /> 
-                                <span className="prompt fw-bold text-secondary"> Follow on LinkedIn</span> </a>
+                                <span className="prompt fw-bold text-secondary grow-on-hover"> Follow on LinkedIn</span> </a>
                               </div>
                               <div> 
                               <a href="https://github.com/mrtuzl/" className="text-decoration-none">
                                 <ImGithub size={25} color="gray" className="m-3 grow-on-hover"/> 
-                                <span className="prompt fw-bold text-secondary"> Follow on Github</span> </a>
+                                <span className="prompt fw-bold text-secondary grow-on-hover"> Follow on Github</span> </a>
                               </div>
                               <div>
                                 <a href="https://www.instagram.com/mertuzelofficial/" className="text-decoration-none">
                                 <RiInstagramFill size={30} color="gray" className="m-3 grow-on-hover" /> 
-                                <span className="prompt fw-bold text-secondary"> Follow on Instagram</span> </a>
+                                <span className="prompt fw-bold text-secondary grow-on-hover"> Follow on Instagram</span> </a>
                               </div>
                               <div>
                                 <a href="https://stackoverflow.com/" className="text-decoration-none"> 
                                 <SiStackoverflow size={25} color="gray" className="m-3 grow-on-hover"/> 
-                                <span className="prompt fw-bold text-secondary"> Follow on Stack Overflow</span> </a> 
+                                <span className="prompt fw-bold text-secondary grow-on-hover"> Follow on Stack Overflow</span> </a> 
                               </div>
                     </div>
                
