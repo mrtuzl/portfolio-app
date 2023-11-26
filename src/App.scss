@@ -1,6 +1,9 @@
 @import "bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Prompt:wght@300&display=swap');
 
+a{
+  text-decoration: none;
+}
 .navbar{
     width: 350px !important;
     height: 50px !important;
@@ -8,6 +11,15 @@
     top: 0;
     z-index: 1000; /* İstediğiniz bir değer */
 }
+.nav-link:hover{
+  color:#189db8 !important;
+}
+.nav-link:focus{
+  color:#189db8 !important;
+  font-weight: bold;
+}
+
+
 .img{
     max-width: 300px;
 }
@@ -99,7 +111,7 @@ h1{
 }
 .git{
   background-color: $red;
-  width: 70%;
+  width: 60%;
 }
 .xd{
   background-color: $pink-400;

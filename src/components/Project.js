@@ -1,14 +1,4 @@
 import React from "react";
-import logoHtml from "../img/html.svg"; 
-import logoCss from "../img/css.svg";
-import logoJavascript from "../img/javascript.svg";
-import logoReact from "../img/react.svg";
-import logoBootstrap from "../img/bootstrap.svg";
-import logoSass from "../img/sass.svg"; 
-import logoWebpack from "../img/webpack.svg";
-import logoGit from "../img/git.svg";
-import logoXd from "../img/xd.svg";
-import logoFigma from "../img/figma.svg";
 import pp2 from "../img/pp2.png";
 import ProjectCard from "./ProjectCard";
 
@@ -18,12 +8,10 @@ const Project = () => {
   return <>
              <div className="container pt-5 ps-5 pe-5"> 
               <div className="row"> 
-                <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center"> 
-                    <img src={pp2} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
-                </div>
+               
                 <div className="col-lg-8 col-sm-12">  
                   <div className="row p-3"> 
-                        <h1 className="p-3 mx-2"> Things I’ve made trying to put my dent in the universe. </h1>
+                        <h1 className="mx-2"> Things I’ve made trying to put my dent in the universe. </h1>
                         <p className="p-3 promp justify"> 
                         I've worked on a variety of projects over the years and 
                         I'm proud of the progress I've made. Many of these projects are 
@@ -38,28 +26,40 @@ const Project = () => {
                     <div className="col-lg-12 d-flex justify-content-evenly">  
                       <div>
                        <ProjectCard title="Calculator App"
-                       description="Bla Bla"
-                       img={logoJavascript}/>
+                       description="This calculator app performs basic mathematical operations and offers a user-friendly mobile experience with alternative color schemes."
+                       live="https://mrtuzl.github.io/calculator-app/dist/"
+                       code="https://github.com/mrtuzl/calculator-app"
+                       />
 
-                      <ProjectCard title="Weather App"
-                       description="Bla Bla"
-                       img={logoJavascript}/>
+                      <ProjectCard title="Recipe App"
+                       description="MealAPI powers this responsive app, letting users explore diverse recipes with intuitive navigation and easy access to ingredients and instructions."
+                       live="https://mrtuzl.github.io/recipe-app/dist/"
+                       code="https://github.com/mrtuzl/recipe-app"
+                       />
+                      
                       </div>
                       <div>
 
-                      <ProjectCard title="Recipe App"
-                       description="Bla Bla"
-                       img={logoJavascript}/>
-
+                     
+                      <ProjectCard title="Weather App"
+                       description="This weather app utilizes The Weather API to deliver real-time weather information in a streamlined and user-friendly mobile interface."
+                       live="https://mrtuzl.github.io/weather-app/"
+                       code="https://github.com/mrtuzl/weather-app"
+                      />
 
                       <ProjectCard title="Reservation App"
-                       description="Bla Bla"
-                       img={logoJavascript}/>
+                       description="Little Lemon is a responsive restaurant site, ensuring easy navigation, menu exploration, and seamless reservations for an enjoyable user experience."
+                       live="https://mrtuzl.github.io/little-lemon-project/"
+                       code="https://github.com/mrtuzl/little-lemon-project"
+                       />
                       </div>
                     </div>
-                  </div>
+                  </div> 
+                <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center"> 
+                    <img src={pp2} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
                 </div>
-              </div>
+            </div> 
+        </div>
             
         </>;
 };

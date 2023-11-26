@@ -27,26 +27,26 @@ const Home = () => {
                      Pro and Photoshop. I thrive on new challenges and opportunities for continual 
                      growth as a developer.
                     </p>
-                    <div className="social p-3  d-flex flex-column"> 
+                    <div className="social p-3  d-flex"> 
                         <div>
                               <a href="https://www.linkedin.com/in/mertmehmetuzel/" className="text-decoration-none">
                                 <ImLinkedin size={25} color="gray" className="m-3 grow-on-hover" /> 
-                                <span className="prompt fw-bold text-secondary grow-on-hover"> Follow on LinkedIn</span> </a>
+                                 </a>
                               </div>
                               <div> 
                               <a href="https://github.com/mrtuzl/" className="text-decoration-none">
                                 <ImGithub size={25} color="gray" className="m-3 grow-on-hover"/> 
-                                <span className="prompt fw-bold text-secondary grow-on-hover"> Follow on Github</span> </a>
+                               </a>
                               </div>
                               <div>
                                 <a href="https://www.instagram.com/mertuzelofficial/" className="text-decoration-none">
                                 <RiInstagramFill size={30} color="gray" className="m-3 grow-on-hover" /> 
-                                <span className="prompt fw-bold text-secondary grow-on-hover"> Follow on Instagram</span> </a>
+                                 </a>
                               </div>
                               <div>
                                 <a href="https://stackoverflow.com/" className="text-decoration-none"> 
                                 <SiStackoverflow size={25} color="gray" className="m-3 grow-on-hover"/> 
-                                <span className="prompt fw-bold text-secondary grow-on-hover"> Follow on Stack Overflow</span> </a> 
+                                </a> 
                               </div>
                     </div>
                
