@@ -13,11 +13,11 @@ import logoFigma from "../img/figma.svg";
 import Card from "./Card";
 const About = () => {
   return <>
-           <div className="container pt-5 ps-5 pe-5"> 
+           <div className="container pt-5 ps-5 pe-5 mobile"> 
               <div className="row"> 
-                <div className="col-lg-8 col-sm-12"> 
+                <div className="col-lg-8 col-sm-12 mobile"> 
                    <div className="row p-3"> 
-                        <h1 className=" mx-2"> I’m Mert Uzel. I live in Ankara, where I design the future.</h1>
+                        <h1 className="mx-2"> I’m Mert Uzel. I live in Ankara, where I design the future.</h1>
                         <p className="p-3 prompt justify"> 
                         I've worked on a variety of projects over the years and 
                         I'm proud of the progress I've made. Many of these projects 
@@ -29,7 +29,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="d-flex flex-column p-3"> 
-                      <div className="d-flex justify-content-evenly align-items-center"> 
+                      <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
                         <a href="https://www.w3.org/html/" target="_blank" rel="noopener noreferrer">
                             <Card title="HTML"
                               img={logoHtml}
@@ -42,7 +42,7 @@ const About = () => {
                         </a>                                       
                       </div>
 
-                      <div className="d-flex justify-content-evenly align-items-center">
+                      <div className="d-flex justify-content-evenly align-items-center mobile-column">
                        <a href="https://ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank" rel="noopener noreferrer">
                             <Card title="Javascript"
                               img={logoJavascript}
@@ -55,7 +55,7 @@ const About = () => {
                          </a>
                       </div>
 
-                      <div className="d-flex justify-content-evenly align-items-center"> 
+                      <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
                        <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
                             <Card title="Bootstrap"
                               img={logoBootstrap}
@@ -68,7 +68,7 @@ const About = () => {
                         </a>
                       </div>
 
-                      <div className="d-flex justify-content-evenly align-items-center"> 
+                      <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
                        <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">
                             <Card title="Webpack"
                               img={logoWebpack}
@@ -81,7 +81,7 @@ const About = () => {
                         </a>
                       </div>
 
-                      <div className="d-flex justify-content-evenly align-items-center"> 
+                      <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
                        <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
                             <Card title="Xd"
                               img={logoXd}
@@ -95,7 +95,7 @@ const About = () => {
                       </div>
                    </div>
                </div>
-             <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center"> 
+             <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center mobile-hidden"> 
                 <img src={pp} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
              </div>
            </div>

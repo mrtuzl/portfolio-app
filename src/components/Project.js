@@ -6,10 +6,9 @@ import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return <>
-             <div className="container pt-5 ps-5 pe-5"> 
+             <div className="container pt-5 ps-5 pe-5 mobile"> 
               <div className="row"> 
-               
-                <div className="col-lg-8 col-sm-12">  
+                <div className="col-lg-8 col-sm-12 mobile">  
                   <div className="row p-3"> 
                         <h1 className="mx-2"> Things I’ve made trying to put my dent in the universe. </h1>
                         <p className="p-3 promp justify"> 
@@ -23,8 +22,8 @@ const Project = () => {
                         </p>
                 </div>
             
-                    <div className="col-lg-12 d-flex justify-content-evenly">  
-                      <div>
+                    <div className="col-lg-12 d-flex justify-content-evenly mobile-column">  
+                      <div className="d-flex flex-column justify-content-center align-items-center">
                        <ProjectCard title="Calculator App"
                        description="This calculator app performs basic mathematical operations and offers a user-friendly mobile experience with alternative color schemes."
                        live="https://mrtuzl.github.io/calculator-app/dist/"
@@ -38,9 +37,8 @@ const Project = () => {
                        />
                       
                       </div>
-                      <div>
 
-                     
+                      <div className="d-flex flex-column justify-content-center align-items-center">
                       <ProjectCard title="Weather App"
                        description="This weather app utilizes The Weather API to deliver real-time weather information in a streamlined and user-friendly mobile interface."
                        live="https://mrtuzl.github.io/weather-app/"
@@ -55,7 +53,7 @@ const Project = () => {
                       </div>
                     </div>
                   </div> 
-                <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center"> 
+                <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center mobile-hidden"> 
                     <img src={pp2} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
                 </div>
             </div> 

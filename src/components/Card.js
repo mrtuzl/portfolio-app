@@ -2,7 +2,7 @@ import React from "react";
 const Card = (props) => {
     const lowercaseTitle = props.title.toLowerCase();
   return <>
-           <div className="card mb-3 shadow-sm card-hover">
+           <div className="card card-sm mb-3 shadow-sm card-hover">
                 <div className="progress-stacked">
                     <div className={`progress ${lowercaseTitle}`} role="progressbar" aria-label="Segment one" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
                         <div className={`progress-bar ${lowercaseTitle}`}></div>

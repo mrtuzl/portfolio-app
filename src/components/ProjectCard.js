@@ -13,10 +13,16 @@ const ProjectCard = (props) => {
                 <div className="card-body ">
                     <h5 className="card-title prompt fw-bold">{props.title}</h5>
                     <p className="card-text prompt">{props.description}</p>
-                        <AiOutlineGithub/> 
-                        <a href={props.code} className="text-decoration-none text-secondary align-middle p-2">View Code</a>
-                        <TbExternalLink/> 
-                        <a href={props.live} className="text-decoration-none text-secondary align-middle p-2">Live Demo</a>
+                        <div className="d-flex  mobile-column justify-content-start">
+                                <div> 
+                                    <AiOutlineGithub/> 
+                                    <a href={props.code} className="text-decoration-none text-secondary align-middle p-2">View Code</a>
+                                </div>
+                                <div> 
+                                    <TbExternalLink/> 
+                                    <a href={props.live} className="text-decoration-none text-secondary align-middle p-2">Live Demo</a>
+                                </div>
+                        </div> 
                 </div>
                 <div className="m-3 d-flex "> 
               

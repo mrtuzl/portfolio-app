@@ -10,13 +10,14 @@ import Project from "./Project";
 
 
 const Home = () => {
+
   return <>
-           <div className="container pt-5 ps-5 pe-5"> 
-              <div className="row"> 
-                <div className="col-lg-8 col-sm-12"> 
-                    <img src={pp} alt="pp" className="img-fluid img-p mx-3 border border-3 border-white shadow"/> 
-                    <h1 className="p-3  mx-2"> Front-end web app developer, and content creator.</h1>
-                    <p className="p-3 mx-3 prompt justify"> 
+           <div className="container pt-5 ps-5 pe-5 mobile" id="home"> 
+              <div className="row mobile"> 
+                <div className="col-lg-8 col-sm-12 mobile"> 
+                    <img src={pp} alt="pp" className="img-fluid img-p m-3 border border-3 border-white shadow"/> 
+                    <h1 className="p-3 mx-2 home"> Front-end web app developer, and content creator.</h1>
+                    <p className="p-3 mx-3 prompt justify mobile"> 
                     I am a front-end developer with expertise in technologies such as React, 
                     highlighting my proficiency in this field. I have experience building scalable, 
                     secure, and reliable web applications using various frameworks like Bootstrap 
@@ -27,7 +28,7 @@ const Home = () => {
                      Pro and Photoshop. I thrive on new challenges and opportunities for continual 
                      growth as a developer.
                     </p>
-                    <div className="social p-3  d-flex"> 
+                    <div className="social p-3 d-flex"> 
                         <div>
                               <a href="https://www.linkedin.com/in/mertmehmetuzel/" className="text-decoration-none">
                                 <ImLinkedin size={25} color="gray" className="m-3 grow-on-hover" /> 
