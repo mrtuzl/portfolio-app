@@ -10,6 +10,8 @@ import logoWebpack from "../img/webpack.svg";
 import logoGit from "../img/git.svg";
 import logoXd from "../img/xd.svg";
 import logoFigma from "../img/figma.svg";
+import logoPs from "../img/ps.png";
+import logoPr from "../img/pr.png";
 import Card from "./Card";
 const About = () => {
   return <>
@@ -17,46 +19,47 @@ const About = () => {
               <div className="row"> 
                 <div className="col-lg-8 col-sm-12 mobile"> 
                    <div className="row p-3"> 
-                        <h1 className="mx-2"> I’m Mert Uzel. I live in Ankara, where I design the future.</h1>
+                        <h1 className="mx-2"> A little about me.</h1>
                         <p className="p-3 prompt justify"> 
-                        I've worked on a variety of projects over the years and 
-                        I'm proud of the progress I've made. Many of these projects 
-                        are open-source and available for others to explore and contribute to.
-                        If you're interested in any of the projects I've worked on, 
-                        please feel free to check out the code and suggest any improvements
-                        or enhancements you might have in mind. Collaborating with others 
-                        is a great way to learn and grow, and I'm always open to new ideas and feedback.
+                        Hello! I'm Mert Mehmet Uzel, a Junior Frontend Developer and Educational Technology Specialist. 
+                        I completed my undergraduate studies in Computer Education and Instructional Technology at
+                        Hacettepe University, and I had an unforgettable experience with the Erasmus+ Program at 
+                        Vilnius University.
+                        During my time as a part-time Frontend Developer at Hacettepe University - 
+                        Continuing Education Center, I honed my skills in HTML5, CSS3, Javascript and 
+                        WordPress. Creating websites and updating content was both enjoyable and 
+                        instructive for me. Balancing my life with hobbies like mobile photography, 
+                        theatre, literature, and travel, I continue to focus on continuous learning 
+                        and new projects. If you're interested in checking out my projects or 
+                        collaborating, please feel free to reach out!
                         </p>
                     </div>
-                    <div className="d-flex flex-column p-3"> 
+                    <div className="d-flex flex-column p-3">
                       <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
                         <a href="https://www.w3.org/html/" target="_blank" rel="noopener noreferrer">
                             <Card title="HTML"
                               img={logoHtml}
                               content="100%"/>
-                        </a>   
+                        </a>
                         <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener noreferrer">
                             <Card title="CSS"
                               img={logoCss}
-                              content="100%"/>  
-                        </a>                                       
-                      </div>
-
-                      <div className="d-flex justify-content-evenly align-items-center mobile-column">
-                       <a href="https://ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank" rel="noopener noreferrer">
+                              content="100%"/>
+                        </a>
+                        <a href="https://ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank" rel="noopener noreferrer">
                             <Card title="Javascript"
                               img={logoJavascript}
                               content="80%"/>
                         </a>
+                      </div>
+
+                      <div className="d-flex justify-content-evenly align-items-center mobile-column">
                         <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
                             <Card title="React JS"
                               img={logoReact}
                               content="75%"/>
                          </a>
-                      </div>
-
-                      <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
-                       <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+                         <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
                             <Card title="Bootstrap"
                               img={logoBootstrap}
                               content="75%"/>
@@ -69,7 +72,7 @@ const About = () => {
                       </div>
 
                       <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
-                       <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">
                             <Card title="Webpack"
                               img={logoWebpack}
                               content="50%"/>
@@ -79,6 +82,11 @@ const About = () => {
                               img={logoGit}
                               content="60%"/>
                         </a>
+                        <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">
+                            <Card title="Figma"
+                              img={logoFigma}
+                              content="85%"/>
+                        </a>
                       </div>
 
                       <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
@@ -87,11 +95,16 @@ const About = () => {
                               img={logoXd}
                               content="100%"/>
                        </a>
-                       <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">
-                            <Card title="Figma"
-                              img={logoFigma}
-                              content="85%"/>
-                        </a>
+                       <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
+                            <Card title="Photoshop"
+                              img={logoPs}
+                              content="60%"/>
+                       </a>
+                       <a href="https://www.adobe.com/products/premiere.html" target="_blank" rel="noopener noreferrer">
+                            <Card title="Premiere"
+                              img={logoPr}
+                              content="100%"/>
+                       </a>
                       </div>
                    </div>
                </div>

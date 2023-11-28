@@ -10,10 +10,9 @@ const Project = () => {
               <div className="row"> 
                 <div className="col-lg-8 col-sm-12 mobile">  
                   <div className="row p-3"> 
-                        <h1 className="mx-2"> Things I’ve made trying to put my dent in the universe. </h1>
-                        <p className="p-3 promp justify"> 
-                        I've worked on a variety of projects over the years and 
-                        I'm proud of the progress I've made. Many of these projects are 
+                        <h1 className="mx-2"> My works. </h1>
+                        <p className="p-3 prompt justify"> 
+                        Many of these projects are 
                         open-source and available for others to explore and contribute to. 
                         If you're interested in any of the projects I've worked on, please 
                         feel free to check out the code and suggest any improvements or enhancements 

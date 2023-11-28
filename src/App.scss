@@ -60,7 +60,7 @@ h1{
 
 .grow-on-hover:hover {
     transform: scale(1.1); 
-    color: $blue-300 !important;
+    color: #189db8 !important;
   }
 .card-hover:hover{
   background-color: $light;
@@ -77,7 +77,7 @@ h1{
     width: 20rem;
 }
 .card-sm{
-  width: 14rem;
+  width: 13rem;
 }
 .justify{
     text-align: justify;
@@ -122,7 +122,15 @@ h1{
 }
 .figma{
   background-color: $teal-500;
-  width: 85½;
+  width: 85%;
+}
+.photoshop{
+  background-color: $blue-400;
+  width: 60%;
+}
+.premiere{
+  background-color: $purple-400;
+  width: 100%;
 }
 .btn-up{
   position: fixed;
