@@ -31,33 +31,29 @@ const Contact = () => {
                         </p>
                 </div>
             
-                <div className="col-lg-4 social p-3 d-flex flex-column"> 
+                <div className="col-12 social ps-3 py-3 d-flex flex-column"> 
                             <div>
                               <a href="https://www.linkedin.com/in/mertmehmetuzel/" className="text-decoration-none">
-                                <ImLinkedin size={25} color="gray" className="m-3 grow-on-hover" /> 
+                                <ImLinkedin size={25} color="gray" className="m-2 grow-on-hover" /> 
                                 <span className="prompt text-secondary grow-on-hover fw-bold"> Follow on LinkedIn</span> </a>
                             </div>
                             <div> 
                               <a href="https://github.com/mrtuzl/" className="text-decoration-none">
-                                <ImGithub size={25} color="gray" className="m-3 grow-on-hover"/> 
+                                <ImGithub size={25} color="gray" className="m-2 grow-on-hover"/> 
                                 <span className="prompt text-secondary grow-on-hover fw-bold"> Follow on Github</span> </a>
                             </div>
                             <div>
                                 <a href="https://www.instagram.com/mertuzelofficial/" className="text-decoration-none">
-                                <RiInstagramFill size={30} color="gray" className="m-3 grow-on-hover" /> 
+                                <RiInstagramFill size={30} color="gray" className="m-2 grow-on-hover" /> 
                                 <span className="prompt text-secondary grow-on-hover fw-bold"> Follow on Instagram</span> </a>
                             </div>
                             <div>
                                 <a href="https://stackoverflow.com/" className="text-decoration-none"> 
-                                <SiStackoverflow size={25} color="gray" className="m-3 grow-on-hover"/> 
+                                <SiStackoverflow size={25} color="gray" className="m-2 grow-on-hover"/> 
                                 <span className="prompt text-secondary grow-on-hover fw-bold"> Follow on Stack Overflow</span></a> 
                             </div>
                   </div>
-                  <div className="col-lg-8 social p-3 d-flex flex-column">
-
-                                        form ekle
-
-                  </div>
+               
               </div> 
               
             </div> 

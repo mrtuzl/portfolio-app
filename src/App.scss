@@ -157,15 +157,20 @@ h1{
   .mobile-hidden{
     display: none !important;
   }
-  .card{
-    width: 16rem !important;
-  }
+  
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .mobile-hidden{
     display: none !important;
   }
-  .mobile{
-    padding: 0.25rem !important;
+  .mobile-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .tablet-hidden{
+    display: none !important;
   }
 }

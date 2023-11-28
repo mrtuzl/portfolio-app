@@ -8,7 +8,7 @@ const Project = () => {
   return <>
              <div className="container pt-5 ps-5 pe-5 mobile"> 
               <div className="row"> 
-                <div className="col-lg-8 col-sm-12 mobile">  
+                <div className="col-xl-8 col-lg-12 col-sm-12 mobile">  
                   <div className="row p-3"> 
                         <h1 className="mx-2"> My works. </h1>
                         <p className="p-3 prompt justify"> 
@@ -52,7 +52,7 @@ const Project = () => {
                       </div>
                     </div>
                   </div> 
-                <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center mobile-hidden"> 
+                <div className="col-xl-4 d-flex align-items-start justify-content-center mobile-hidden tablet-hidden"> 
                     <img src={pp2} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
                 </div>
             </div> 

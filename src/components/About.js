@@ -17,7 +17,7 @@ const About = () => {
   return <>
            <div className="container pt-5 ps-5 pe-5 mobile"> 
               <div className="row"> 
-                <div className="col-lg-8 col-sm-12 mobile"> 
+                <div className="col-xl-8 col-lg-12 col-sm-12 mobile "> 
                    <div className="row p-3"> 
                         <h1 className="mx-2"> A little about me.</h1>
                         <p className="p-3 prompt justify"> 
@@ -34,7 +34,7 @@ const About = () => {
                         collaborating, please feel free to reach out!
                         </p>
                     </div>
-                    <div className="d-flex flex-column p-3">
+                    <div className="d-flex flex-column">
                       <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
                         <a href="https://www.w3.org/html/" target="_blank" rel="noopener noreferrer">
                             <Card title="HTML"
@@ -108,7 +108,7 @@ const About = () => {
                       </div>
                    </div>
                </div>
-             <div className="col-lg-4 col-sm-12  d-flex align-items-start justify-content-center mobile-hidden"> 
+             <div className="col-xl-4 d-flex align-items-start justify-content-center mobile-hidden tablet-hidden"> 
                 <img src={pp} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
              </div>
            </div>

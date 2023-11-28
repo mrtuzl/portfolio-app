@@ -59,6 +59,7 @@ const Home = () => {
             </div>
             <About/>
             <Project/>
+          
         </>;
 };
 
