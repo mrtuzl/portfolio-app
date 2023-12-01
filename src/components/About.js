@@ -13,6 +13,7 @@ import logoFigma from "../img/figma.svg";
 import logoPs from "../img/ps.png";
 import logoPr from "../img/pr.png";
 import Card from "./Card";
+import metaS1 from "../img/metaS1.png";
 const About = () => {
   return <>
            <div className="container pt-5 ps-5 pe-5 mobile"> 
@@ -35,6 +36,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="d-flex flex-column">
+                      <h1> skills </h1>
                       <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
                         <a href="https://www.w3.org/html/" target="_blank" rel="noopener noreferrer">
                             <Card title="HTML"
@@ -107,6 +109,17 @@ const About = () => {
                        </a>
                       </div>
                    </div>
+                   <div className="d-flex flex-column">
+                    <h1> certification </h1>
+                   <div class="card">
+                        <img src={metaS1} class="card-img-top" alt="sertifika"/>
+                        <div class="card-body">
+                          <h5 class="card-title">Meta</h5>
+                          <p class="card-text">Front End Developer</p>
+                        </div>
+                      </div>
+                  </div>
+
                </div>
              <div className="col-xl-4 d-flex align-items-start justify-content-center mobile-hidden tablet-hidden"> 
                 <img src={pp} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 

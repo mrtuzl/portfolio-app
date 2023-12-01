@@ -2,10 +2,14 @@ import React from "react";
 import { GrFormPreviousLink } from "react-icons/gr";
 
 const Weather = () => {
-
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
     const refreshPage = () => {
         window.location.reload(false);
       }
+   
   return <>
              <div className="container pt-5 ps-5 pe-5 mobile"> 
               <div className="row">

@@ -2,7 +2,10 @@ import React from "react";
 import { GrFormPreviousLink } from "react-icons/gr";
 
 const Reservation = () => {
-
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
     const refreshPage = () => {
         window.location.reload(false);
       }

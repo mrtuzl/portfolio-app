@@ -3,7 +3,10 @@ import { GrFormPreviousLink } from "react-icons/gr";
 
 
 const Calculator = () => {
-   
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
     const refreshPage = () => {
         window.location.reload(false);
       }
