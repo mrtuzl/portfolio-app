@@ -13,13 +13,14 @@ import logoFigma from "../img/figma.svg";
 import logoPs from "../img/ps.png";
 import logoPr from "../img/pr.png";
 import Card from "./Card";
+import Certificate from "./Certificate";
 import metaS1 from "../img/metaS1.png";
+
 const About = () => {
   return <>
            <div className="container pt-5 ps-5 pe-5 mobile"> 
-              <div className="row"> 
-                <div className="col-xl-8 col-lg-12 col-sm-12 mobile "> 
-                   <div className="row p-3"> 
+              <div className="row p-3"> 
+                <div className="col-xl-8 col-lg-12 col-sm-12 mobile"> 
                         <h1 className="mx-2"> A little about me.</h1>
                         <p className="p-3 prompt justify"> 
                         Hello! I'm Mert Mehmet Uzel, a Junior Frontend Developer and Educational Technology Specialist. 
@@ -34,10 +35,16 @@ const About = () => {
                         and new projects. If you're interested in checking out my projects or 
                         collaborating, please feel free to reach out!
                         </p>
+                        </div>
+                    <div className="col-xl-4 d-flex align-items-start justify-content-center mobile-hidden tablet-hidden"> 
+                       <img src={pp} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
                     </div>
+                 
+                  <div className="col-xl-12"> 
+                    <div className="row p-3"> 
                     <div className="d-flex flex-column">
-                      <h1> skills </h1>
-                      <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
+                    <h1 className="my-2"> Skills.</h1>
+                      <div className="d-flex flex-wrap align-items-center my-2"> 
                         <a href="https://www.w3.org/html/" target="_blank" rel="noopener noreferrer">
                             <Card title="HTML"
                               img={logoHtml}
@@ -53,9 +60,7 @@ const About = () => {
                               img={logoJavascript}
                               content="80%"/>
                         </a>
-                      </div>
 
-                      <div className="d-flex justify-content-evenly align-items-center mobile-column">
                         <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
                             <Card title="React JS"
                               img={logoReact}
@@ -71,10 +76,8 @@ const About = () => {
                               img={logoSass}
                               content="90%"/>
                         </a>
-                      </div>
 
-                      <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
-                      <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer">
                             <Card title="Webpack"
                               img={logoWebpack}
                               content="50%"/>
@@ -89,10 +92,8 @@ const About = () => {
                               img={logoFigma}
                               content="85%"/>
                         </a>
-                      </div>
 
-                      <div className="d-flex justify-content-evenly align-items-center mobile-column"> 
-                       <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                        <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
                             <Card title="Xd"
                               img={logoXd}
                               content="100%"/>
@@ -107,23 +108,80 @@ const About = () => {
                               img={logoPr}
                               content="100%"/>
                        </a>
+
                       </div>
+
+                      
                    </div>
-                   <div className="d-flex flex-column">
-                    <h1> certification </h1>
-                   <div class="card">
-                        <img src={metaS1} class="card-img-top" alt="sertifika"/>
-                        <div class="card-body">
-                          <h5 class="card-title">Meta</h5>
-                          <p class="card-text">Front End Developer</p>
-                        </div>
-                      </div>
                   </div>
 
-               </div>
-             <div className="col-xl-4 d-flex align-items-start justify-content-center mobile-hidden tablet-hidden"> 
-                <img src={pp} alt="pp" className="img-fluid img skew border border-3 border-white shadow"/> 
-             </div>
+                <div className="row p-3"> 
+                   <div className="d-flex flex-column">
+                   <h1 className="mx-2 my-2"> Certificates.</h1>
+
+                      <div className="d-flex flex-wrap align-items-center my-2"> 
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+
+                          <a href="https://helpx.adobe.com/tr/xd/get-started.html" target="_blank" rel="noopener noreferrer">
+                                <Certificate title="Meta"
+                                  img={metaS1}
+                                  content="Front-End Developer"/>
+                          </a>
+                          </div>
+
+                      
+
+
+                  </div>
+              </div>
+            </div>
+            
            </div>
          </div>
        </>;
