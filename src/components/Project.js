@@ -5,7 +5,8 @@ import Calculator from "./Calculator";
 import Recipe from "./Recipe";
 import Weather from "./Weather";
 import Reservation from "./Reservation";
-import { MdOutlinePreview } from "react-icons/md";
+import { PiArrowUpRightBold } from "react-icons/pi";
+
 
 
 
@@ -42,8 +43,8 @@ const Project = () => {
   }
   else {
     return <>
-    <div className="container pt-5 ps-5 pe-5 mobile"> 
-     <div className="row"> 
+    <div className="container pt-5 ps-5 pe-5 bg-white mobile"> 
+     <div className="row pt-5"> 
        <div className="col-xl-8 col-lg-12 col-sm-12 mobile">  
          <div className="row p-3"> 
                <h1 className="mx-2"> My works. </h1>
@@ -67,7 +68,7 @@ const Project = () => {
               code="https://github.com/mrtuzl/calculator-app"
               />
               <button className="btn btn-white shadow rounded prompt mx-3"
-              onClick={() => setProject("calculator")}> Preview <MdOutlinePreview size={25}/> </button>
+              onClick={() => setProject("calculator")}> Preview <PiArrowUpRightBold size={20}/> </button>
               </div>
 
     
@@ -78,7 +79,7 @@ const Project = () => {
               code="https://github.com/mrtuzl/recipe-app"
               />
              <button className="btn btn-white shadow rounded prompt mx-3"
-              onClick={() => setProject("recipe")}> Preview <MdOutlinePreview size={25}/> </button>
+              onClick={() => setProject("recipe")}> Preview <PiArrowUpRightBold size={20}/> </button>
               </div>
              </div>
 
@@ -92,7 +93,7 @@ const Project = () => {
               code="https://github.com/mrtuzl/weather-app"
              />
              <button className="btn btn-white shadow rounded prompt mx-3"
-              onClick={() => setProject("weather")}> Preview <MdOutlinePreview size={25}/> </button>
+              onClick={() => setProject("weather")}> Preview <PiArrowUpRightBold size={20}/> </button>
               </div>
              
              <div> 
@@ -102,7 +103,7 @@ const Project = () => {
               code="https://github.com/mrtuzl/little-lemon-project"
               />
                <button className="btn btn-white shadow rounded prompt mx-3"
-              onClick={() => setProject("reservation")}> Preview <MdOutlinePreview size={25}/> </button>
+              onClick={() => setProject("reservation")}> Preview <PiArrowUpRightBold size={20}/> </button>
                 </div>
              </div>
            </div>

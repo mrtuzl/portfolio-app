@@ -36,7 +36,7 @@ const App = () => {
             });
         }
 
-  return <div className="container-fluid ps-5 pe-5 pt-5">
+  return <div className="container-fluid ps-5 pe-5">
             <header className="header d-flex justify-content-center"> 
             <Navbar />
             </header>

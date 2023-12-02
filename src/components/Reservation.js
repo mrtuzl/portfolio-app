@@ -10,7 +10,7 @@ const Reservation = () => {
         window.location.reload(false);
       }
   return <>
-             <div className="container pt-5 ps-5 pe-5 mobile"> 
+             <div className="container pt-5 ps-5 pe-5 bg-white mobile"> 
               <div className="row">
                     <div> 
                          <button 

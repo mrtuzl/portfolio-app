@@ -6,8 +6,8 @@ import { SiStackoverflow } from "react-icons/si";
 
 const Contact = () => {
   return <>
-             <div className="container pt-5 ps-5 pe-5 mobile"> 
-              <div className="row p-3"> 
+             <div className="container pt-5 ps-5 pe-5 bg-white mobile"> 
+              <div className="row p-3 pt-5"> 
                 <div className="col-lg-12 col-sm-12 mobile">  
                   
                         <h1 className="mx-2"> Let's Get in Touch: Ways to Connect with Me </h1>

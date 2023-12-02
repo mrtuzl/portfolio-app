@@ -12,7 +12,7 @@ import Project from "./Project";
 const Home = () => {
 
   return <>
-           <div className="container pt-5 ps-5 pe-5 mobile" id="home"> 
+           <div className="container pt-5 ps-5 pe-5 mobile bg-white" id="home"> 
               <div className="row mobile"> 
                 <div className="col-lg-8 col-sm-12 mobile"> 
                     <img src={pp} alt="pp" className="img-fluid img-p m-3 border border-3 border-white shadow"/> 
