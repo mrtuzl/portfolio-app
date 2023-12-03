@@ -14,7 +14,7 @@ const Home = () => {
   return <>
            <div className="container pt-5 ps-5 pe-5 mobile bg-white" id="home"> 
               <div className="row mobile"> 
-                <div className="col-lg-8 col-sm-12 mobile"> 
+                <div className="col-lg-8 col-sm-12 mobile mt-3"> 
                     <img src={pp} alt="pp" className="img-fluid img-p m-3 border border-3 border-white shadow"/> 
                     <h1 className="p-3 mx-2 home"> Front-end web app developer, and content creator.</h1>
                     <p className="p-3 mx-3 prompt justify mobile"> 

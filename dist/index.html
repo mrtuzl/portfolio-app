@@ -1,1 +1,17 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>React with Webpack Portfolio App</title><script defer="defer" src="bundle.js"></script></head><body><div id="app"></div><script src="bundle.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>React with Webpack Portfolio App</title><script defer="defer" src="bundle.js"></script></head><body><div id="app"></div><script src="bundle.js"></script><script>document.addEventListener("DOMContentLoaded", function() {
+        var lazyImages = document.querySelectorAll('img[loading="lazy"]');
+
+        var observer = new IntersectionObserver(function(entries, observer) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              var img = entry.target;
+              img.src = img.dataset.src;
+              observer.unobserve(img);
+            }
+          });
+        });
+
+        lazyImages.forEach(function(img) {
+          observer.observe(img);
+        });
+      });</script></body></html>

@@ -55,7 +55,7 @@ const About = () => {
                     <div className="row p-1"> 
                     <div className="d-flex flex-column">
                     <h1 className="my-2"> Skills.</h1>
-                      <div className="d-flex flex-wrap justify-content-start align-items-center my-2"> 
+                      <div className="d-flex flex-wrap justify-content-start align-items-center my-2 justify-mobile"> 
                         <a href="https://www.w3.org/html/" target="_blank" rel="noopener noreferrer">
                             <Card title="HTML"
                               img={logoHtml}
@@ -130,7 +130,7 @@ const About = () => {
                    <div className="d-flex flex-column">
                    <h1 className="my-2"> Certificates.</h1>
 
-                      <div className="d-flex flex-wrap justify-content-start align-items-center my-2"> 
+                      <div className="d-flex flex-wrap justify-content-start align-items-center my-2 justify-mobile"> 
                           <a href="https://coursera.org/verify/S359DPHLAD8A" target="_blank" rel="noopener noreferrer">
                                 <Certificate title="Johns Hopkins University"
                                   img={cer1}

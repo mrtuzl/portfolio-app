@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import { IoIosArrowDropup } from "react-icons/io";
 
 
-
 const App = () => {
 
     const[isVisible, setIsVisible] = useState(false);
@@ -36,7 +35,7 @@ const App = () => {
             });
         }
 
-  return <div className="container-fluid ps-5 pe-5">
+  return <div className="container-fluid pt-5 ps-5 pe-5">
             <header className="header d-flex justify-content-center"> 
             <Navbar />
             </header>
