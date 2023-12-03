@@ -22,8 +22,6 @@ a{
   color:#189db8 !important;
   font-weight: bold;
 }
-
-
 .img{
     max-width: 300px;
 }
@@ -34,7 +32,6 @@ a{
 .skew{
     --f: .1; /* the parallax factor (the smaller the better) */
   --r: 10px; /* radius */
-  
   --_f: calc(100%*var(--f)/(1 + var(--f)));
   --_a: calc(90deg*var(--f));
   aspect-ratio: calc(1 + var(--f));
@@ -152,6 +149,7 @@ h1{
 .hidden{
   visibility: hidden;
 }
+
 @media screen and (max-width: 768px) {
   .mobile{
     padding: 0px !important;
@@ -169,6 +167,7 @@ h1{
   }
   
 }
+
 @media screen and (max-width: 992px) {
   .mobile-hidden{
     display: none !important;

@@ -9,8 +9,6 @@ import { PiArrowUpRightBold } from "react-icons/pi";
 
 
 
-
-
 const Project = () => {
   const[project, setProject]=useState("");
 
